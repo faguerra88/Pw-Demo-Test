@@ -1,0 +1,11 @@
+npx playwright test --project=chromium  --debug
+                                        --ui
+                                        --headed
+                                        --trace on
+                     example.spec.ts
+                     -g "has title"
+                     show-report
+
+
+test.skip
+test.only
